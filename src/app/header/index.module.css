@@ -1,0 +1,61 @@
+.container {
+    background-color: #fff;
+    height: 10vh;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    max-width: 6rem;
+}
+
+.logo img{
+    margin-right: 2rem;
+}
+
+.navLinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+
+.btns {
+    width: 6vw;
+    font-family: inherit;
+    border: 0;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.btns:hover {
+    color: #FE7A7B;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.ctaContainer {
+    background-color: #fff;
+    border: #FE7A7B 2px solid;
+    
+}
+.ctaContainer:hover {
+    background-color:#FE7A7B;
+}
+
+
+.cta{
+    color: #FE7A7B;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 0;
+    background-color: transparent;
+    border-radius: 20%;
+}
+
+.cta:hover {
+    cursor: pointer;
+    color: #fff;
+
+}
