@@ -1,0 +1,184 @@
+{
+  "restaurants": [
+    {
+      "name": "Sunset Bistro",
+      "state": "California",
+      "city": "Los Angeles",
+      "description": "A cozy place with a beautiful sunset view offering a variety of continental dishes.",
+      "location": {
+        "longitude": -118.2437,
+        "latitude": 34.0522
+      },
+      "popular_details": "Known for its evening brunches and live music.",
+      "images": [
+        "https://example.com/images/sunset_bistro_1.jpg",
+        "https://example.com/images/sunset_bistro_2.jpg"
+      ],
+      "contact_number": "+1 323-555-0178",
+      "cuisine": "Continental",
+      "food_types": ["Vegan", "Gluten-Free", "Vegetarian"]
+    },
+    {
+      "name": "Green Garden",
+      "state": "New York",
+      "city": "New York",
+      "description": "A vibrant vegan restaurant located in the heart of the city, offering fresh and organic meals.",
+      "location": {
+        "longitude": -74.006,
+        "latitude": 40.7128
+      },
+      "popular_details": "Famous for its organic smoothies and plant-based burgers.",
+      "images": [
+        "https://example.com/images/green_garden_1.jpg",
+        "https://example.com/images/green_garden_2.jpg"
+      ],
+      "contact_number": "+1 212-555-0199",
+      "cuisine": "Vegan",
+      "food_types": ["Vegan", "Organic", "Dietary"]
+    },
+    {
+      "name": "Ocean Delight",
+      "state": "Florida",
+      "city": "Miami",
+      "description": "A seafood paradise by the beach, offering the freshest catch of the day.",
+      "location": {
+        "longitude": -80.1918,
+        "latitude": 25.7617
+      },
+      "popular_details": "Best known for its seafood platter and ocean view dining.",
+      "images": [
+        "https://example.com/images/ocean_delight_1.jpg",
+        "https://example.com/images/ocean_delight_2.jpg"
+      ],
+      "contact_number": "+1 305-555-0123",
+      "cuisine": "Seafood",
+      "food_types": ["Gluten-Free", "Pescatarian"]
+    },
+    {
+      "name": "Mountain Grill",
+      "state": "Colorado",
+      "city": "Denver",
+      "description": "A rustic grill house nestled in the mountains, offering hearty meals and stunning views.",
+      "location": {
+        "longitude": -104.9903,
+        "latitude": 39.7392
+      },
+      "popular_details": "Famous for its grilled steaks and craft beers.",
+      "images": [
+        "https://example.com/images/mountain_grill_1.jpg",
+        "https://example.com/images/mountain_grill_2.jpg"
+      ],
+      "contact_number": "+1 720-555-0147",
+      "cuisine": "American",
+      "food_types": ["Gluten-Free", "Vegetarian"]
+    },
+    {
+      "name": "Spice Route",
+      "state": "Texas",
+      "city": "Houston",
+      "description": "An authentic Indian restaurant bringing the rich flavors of India to Texas.",
+      "location": {
+        "longitude": -95.3698,
+        "latitude": 29.7604
+      },
+      "popular_details": "Known for its spicy curries and traditional Indian desserts.",
+      "images": [
+        "https://example.com/images/spice_route_1.jpg",
+        "https://example.com/images/spice_route_2.jpg"
+      ],
+      "contact_number": "+1 713-555-0168",
+      "cuisine": "Indian",
+      "food_types": ["Vegan", "Vegetarian", "Gluten-Free"]
+    },
+    {
+      "name": "Sunny Side Cafe",
+      "state": "California",
+      "city": "San Francisco",
+      "description": "A cozy breakfast spot known for its sunny patio and delicious morning fare.",
+      "location": {
+        "longitude": -122.4194,
+        "latitude": 37.7749
+      },
+      "popular_details": "Famous for its fluffy pancakes and bottomless mimosas.",
+      "images": [
+        "https://example.com/images/sunny_side_cafe_1.jpg",
+        "https://example.com/images/sunny_side_cafe_2.jpg"
+      ],
+      "contact_number": "+1 415-555-0201",
+      "cuisine": "American",
+      "food_types": ["Vegetarian", "Brunch"]
+    },
+    {
+      "name": "Garden Terrace",
+      "state": "New York",
+      "city": "Buffalo",
+      "description": "A serene garden restaurant offering a blend of local and international cuisines.",
+      "location": {
+        "longitude": -78.8784,
+        "latitude": 42.8864
+      },
+      "popular_details": "Known for its farm-to-table dishes and cozy atmosphere.",
+      "images": [
+        "https://example.com/images/garden_terrace_1.jpg",
+        "https://example.com/images/garden_terrace_2.jpg"
+      ],
+      "contact_number": "+1 716-555-0234",
+      "cuisine": "International",
+      "food_types": ["Gluten-Free", "Vegetarian"]
+    },
+    {
+      "name": "Bayview Grill",
+      "state": "Florida",
+      "city": "Tampa",
+      "description": "A waterfront restaurant specializing in grilled seafood and tropical cocktails.",
+      "location": {
+        "longitude": -82.4572,
+        "latitude": 27.9506
+      },
+      "popular_details": "Famous for its lobster rolls and panoramic views of the bay.",
+      "images": [
+        "https://example.com/images/bayview_grill_1.jpg",
+        "https://example.com/images/bayview_grill_2.jpg"
+      ],
+      "contact_number": "+1 813-555-0267",
+      "cuisine": "Seafood",
+      "food_types": ["Pescatarian", "Gluten-Free"]
+    },
+    {
+      "name": "Rocky Mountain Diner",
+      "state": "Colorado",
+      "city": "Colorado Springs",
+      "description": "A classic diner serving up hearty American fare with a Rocky Mountain twist.",
+      "location": {
+        "longitude": -104.8214,
+        "latitude": 38.8339
+      },
+      "popular_details": "Known for its bison burgers and homemade pies.",
+      "images": [
+        "https://example.com/images/rocky_mountain_diner_1.jpg",
+        "https://example.com/images/rocky_mountain_diner_2.jpg"
+      ],
+      "contact_number": "+1 719-555-0290",
+      "cuisine": "American",
+      "food_types": ["Gluten-Free", "Vegetarian"]
+    },
+    {
+      "name": "Taste of India",
+      "state": "Texas",
+      "city": "Austin",
+      "description": "An authentic Indian dining experience offering a wide range of traditional dishes.",
+      "location": {
+        "longitude": -97.7431,
+        "latitude": 30.2672
+      },
+      "popular_details": "Famous for its flavorful curries and tandoori specialties.",
+      "images": [
+        "https://example.com/images/taste_of_india_1.jpg",
+        "https://example.com/images/taste_of_india_2.jpg"
+      ],
+      "contact_number": "+1 512-555-0321",
+      "cuisine": "Indian",
+      "food_types": ["Vegan", "Vegetarian", "Gluten-Free"]
+    }
+  ]
+}
