@@ -1,15 +1,20 @@
-"use client"
+// pages/[state].tsx
+"use client";
 
 import React from 'react';
 import { useRouter } from 'next/router';
-import data from '../../public/restaurantData.json'
 import Head from 'next/head';
 import Header from '@/app/header/Header';
+import RestaurantList from '@/app/restaurantList/restaurantList';
+import data from '../../public/restaurantData.json';
 
-interface RestaurantData {
+interface Restaurant {
+  name: string;
   state: string;
   city: string;
-  name: string;
+  description: string;
+  images: string[];
+  cuisine: string;
 }
 
 const StatePage: React.FC = () => {
@@ -17,22 +22,18 @@ const StatePage: React.FC = () => {
   const { state } = router.query;
 
   // Filter restaurants based on the selected state
-  const restaurantsInState = data.restaurants.filter((restaurant: RestaurantData) =>
-    restaurant.state.toLowerCase() === state?.toString().toLowerCase()
+  const restaurantsInState = data.restaurants.filter(
+    (restaurant: Restaurant) => restaurant.state.toLowerCase() === state?.toString().toLowerCase()
   );
 
   return (
     <div>
-      <Head>  
+      <Head>
         <title>Restaurants in {state}</title>
       </Head>
-      <Header/>
+      <Header />
       <h1>Restaurants in {state}</h1>
-      <ul>
-        {restaurantsInState.map((restaurant: RestaurantData) => (
-          <li key={restaurant.name}>{restaurant.name}</li>
-        ))}
-      </ul>
+      <RestaurantList restaurants={restaurantsInState} />
     </div>
   );
 };

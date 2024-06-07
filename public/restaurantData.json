@@ -11,8 +11,8 @@
       },
       "popular_details": "Known for its evening brunches and live music.",
       "images": [
-        "https://example.com/images/sunset_bistro_1.jpg",
-        "https://example.com/images/sunset_bistro_2.jpg"
+        "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 323-555-0178",
       "cuisine": "Continental",
@@ -29,8 +29,8 @@
       },
       "popular_details": "Famous for its organic smoothies and plant-based burgers.",
       "images": [
-        "https://example.com/images/green_garden_1.jpg",
-        "https://example.com/images/green_garden_2.jpg"
+        "https://images.pexels.com/photos/1115251/pexels-photo-1115251.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/2253643/pexels-photo-2253643.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 212-555-0199",
       "cuisine": "Vegan",
@@ -47,8 +47,8 @@
       },
       "popular_details": "Best known for its seafood platter and ocean view dining.",
       "images": [
-        "https://example.com/images/ocean_delight_1.jpg",
-        "https://example.com/images/ocean_delight_2.jpg"
+        "https://images.pexels.com/photos/92090/pexels-photo-92090.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1628020/pexels-photo-1628020.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 305-555-0123",
       "cuisine": "Seafood",
@@ -65,8 +65,8 @@
       },
       "popular_details": "Famous for its grilled steaks and craft beers.",
       "images": [
-        "https://example.com/images/mountain_grill_1.jpg",
-        "https://example.com/images/mountain_grill_2.jpg"
+        "https://images.pexels.com/photos/2276797/pexels-photo-2276797.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/20551825/pexels-photo-20551825/free-photo-of-view-of-a-restaurant-at-590-amsterdam-avenue-in-new-york-city-new-york-usa.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 720-555-0147",
       "cuisine": "American",
@@ -83,8 +83,8 @@
       },
       "popular_details": "Known for its spicy curries and traditional Indian desserts.",
       "images": [
-        "https://example.com/images/spice_route_1.jpg",
-        "https://example.com/images/spice_route_2.jpg"
+        "https://images.pexels.com/photos/1055058/pexels-photo-1055058.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/6752433/pexels-photo-6752433.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 713-555-0168",
       "cuisine": "Indian",
@@ -101,8 +101,8 @@
       },
       "popular_details": "Famous for its fluffy pancakes and bottomless mimosas.",
       "images": [
-        "https://example.com/images/sunny_side_cafe_1.jpg",
-        "https://example.com/images/sunny_side_cafe_2.jpg"
+        "https://images.pexels.com/photos/15925236/pexels-photo-15925236/free-photo-of-people-walking-between-buildings-in-city-in-the-evening.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/18781949/pexels-photo-18781949/free-photo-of-restaurants-over-shantang-river-in-suzhou-at-night.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 415-555-0201",
       "cuisine": "American",
@@ -119,8 +119,8 @@
       },
       "popular_details": "Known for its farm-to-table dishes and cozy atmosphere.",
       "images": [
-        "https://example.com/images/garden_terrace_1.jpg",
-        "https://example.com/images/garden_terrace_2.jpg"
+        "https://images.pexels.com/photos/19308274/pexels-photo-19308274/free-photo-of-an-alley-with-tables-outside-of-restaurants-in-a-town.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/3201921/pexels-photo-3201921.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 716-555-0234",
       "cuisine": "International",
@@ -137,8 +137,8 @@
       },
       "popular_details": "Famous for its lobster rolls and panoramic views of the bay.",
       "images": [
-        "https://example.com/images/bayview_grill_1.jpg",
-        "https://example.com/images/bayview_grill_2.jpg"
+        "https://images.pexels.com/photos/2755/restaurant.jpg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/941864/pexels-photo-941864.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 813-555-0267",
       "cuisine": "Seafood",
@@ -155,8 +155,8 @@
       },
       "popular_details": "Known for its bison burgers and homemade pies.",
       "images": [
-        "https://example.com/images/rocky_mountain_diner_1.jpg",
-        "https://example.com/images/rocky_mountain_diner_2.jpg"
+        "https://images.pexels.com/photos/2277653/pexels-photo-2277653.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/1055054/pexels-photo-1055054.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 719-555-0290",
       "cuisine": "American",
@@ -173,12 +173,174 @@
       },
       "popular_details": "Famous for its flavorful curries and tandoori specialties.",
       "images": [
-        "https://example.com/images/taste_of_india_1.jpg",
-        "https://example.com/images/taste_of_india_2.jpg"
+        "https://images.pexels.com/photos/9316203/pexels-photo-9316203.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321588/pexels-photo-321588.jpeg?auto=compress&cs=tinysrgb&w=800"
       ],
       "contact_number": "+1 512-555-0321",
       "cuisine": "Indian",
       "food_types": ["Vegan", "Vegetarian", "Gluten-Free"]
+    },
+    {
+      "name": "Urban Eats",
+      "state": "Illinois",
+      "city": "Chicago",
+      "description": "A trendy spot in the heart of the city, offering a modern twist on classic dishes.",
+      "location": {
+        "longitude": -87.6298,
+        "latitude": 41.8781
+      },
+      "popular_details": "Famous for its gourmet burgers and craft cocktails.",
+      "images": [
+        "https://images.pexels.com/photos/9316204/pexels-photo-9316204.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321589/pexels-photo-321589.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 312-555-0199",
+      "cuisine": "American",
+      "food_types": ["Vegetarian", "Gluten-Free"]
+    },
+    {
+      "name": "Blue Ocean",
+      "state": "Florida",
+      "city": "Miami",
+      "description": "A seafood haven offering the freshest catches and ocean views.",
+      "location": {
+        "longitude": -80.1918,
+        "latitude": 25.7617
+      },
+      "popular_details": "Renowned for its seafood platter and beachfront dining.",
+      "images": [
+        "https://images.pexels.com/photos/9316205/pexels-photo-9316205.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321590/pexels-photo-321590.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 305-555-0123",
+      "cuisine": "Seafood",
+      "food_types": ["Pescatarian", "Gluten-Free"]
+    },
+    {
+      "name": "Mountain Feast",
+      "state": "Colorado",
+      "city": "Aspen",
+      "description": "A rustic retreat offering hearty meals and breathtaking mountain views.",
+      "location": {
+        "longitude": -106.8371,
+        "latitude": 39.1911
+      },
+      "popular_details": "Known for its grilled meats and cozy ambiance.",
+      "images": [
+        "https://images.pexels.com/photos/9316206/pexels-photo-9316206.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321591/pexels-photo-321591.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 970-555-0147",
+      "cuisine": "American",
+      "food_types": ["Vegetarian", "Gluten-Free"]
+    },
+    {
+      "name": "Southern Comfort",
+      "state": "Georgia",
+      "city": "Atlanta",
+      "description": "A warm and welcoming spot serving traditional Southern fare.",
+      "location": {
+        "longitude": -84.3880,
+        "latitude": 33.7490
+      },
+      "popular_details": "Famous for its fried chicken and peach cobbler.",
+      "images": [
+        "https://images.pexels.com/photos/9316207/pexels-photo-9316207.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321592/pexels-photo-321592.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 404-555-0168",
+      "cuisine": "Southern",
+      "food_types": ["Gluten-Free", "Vegetarian"]
+    },
+    {
+      "name": "Garden Delights",
+      "state": "Oregon",
+      "city": "Portland",
+      "description": "A vegan paradise with a focus on fresh, locally sourced ingredients.",
+      "location": {
+        "longitude": -122.6765,
+        "latitude": 45.5231
+      },
+      "popular_details": "Known for its innovative salads and organic juices.",
+      "images": [
+        "https://images.pexels.com/photos/9316208/pexels-photo-9316208.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321593/pexels-photo-321593.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 503-555-0201",
+      "cuisine": "Vegan",
+      "food_types": ["Vegan", "Gluten-Free", "Vegetarian"]
+    }, {
+      "name": "Bayfront Grill",
+      "state": "Texas",
+      "city": "Galveston",
+      "description": "A seaside grill offering a mix of local seafood and BBQ.",
+      "location": {
+        "longitude": -94.7977,
+        "latitude": 29.3013
+      },
+      "popular_details": "Famous for its BBQ shrimp and sunset views.",
+      "images": [
+        "https://images.pexels.com/photos/9316209/pexels-photo-9316209.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321594/pexels-photo-321594.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 409-555-0234",
+      "cuisine": "Seafood",
+      "food_types": ["Pescatarian", "Gluten-Free"]
+    },
+    {
+      "name": "Canyon Cafe",
+      "state": "Arizona",
+      "city": "Sedona",
+      "description": "A quaint cafe nestled in the red rocks, serving fresh and flavorful meals.",
+      "location": {
+        "longitude": -111.7617,
+        "latitude": 34.8697
+      },
+      "popular_details": "Known for its breakfast burritos and stunning views.",
+      "images": [
+        "https://images.pexels.com/photos/9316210/pexels-photo-9316210.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321595/pexels-photo-321595.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 928-555-0267",
+      "cuisine": "Cafe",
+      "food_types": ["Vegetarian", "Gluten-Free"]
+    },
+    {
+      "name": "Harvest Table",
+      "state": "Virginia",
+      "city": "Charlottesville",
+      "description": "A farm-to-table restaurant offering fresh, seasonal dishes.",
+      "location": {
+        "longitude": -78.4767,
+        "latitude": 38.0293
+      },
+      "popular_details": "Famous for its farm-fresh salads and local wines.",
+      "images": [
+        "https://images.pexels.com/photos/9316211/pexels-photo-9316211.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321596/pexels-photo-321596.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 434-555-0290",
+      "cuisine": "American",
+      "food_types": ["Vegan", "Gluten-Free", "Vegetarian"]
+    },
+    {
+      "name": "Lakeside Bistro",
+      "state": "Minnesota",
+      "city": "Minneapolis",
+      "description": "A charming bistro by the lake offering a variety of international dishes.",
+      "location": {
+        "longitude": -93.2650,
+        "latitude": 44.9778
+      },
+      "popular_details": "Known for its brunch specials and lakeside dining.",
+      "images": [
+        "https://images.pexels.com/photos/9316212/pexels-photo-9316212.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/321597/pexels-photo-321597.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "contact_number": "+1 612-555-0321",
+      "cuisine": "International",
+      "food_types": ["Gluten-Free", "Vegetarian"]
     }
   ]
 }
+

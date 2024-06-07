@@ -22,19 +22,21 @@
     gap: 2px;
 }
 
-.btns {
+.navLinks a {
+    text-decoration: none;
     width: 6vw;
     font-family: inherit;
     border: 0;
     background-color: transparent;
     font-weight: 400;
     font-size: 1rem;
+    }
+.navLinks a:any-link {
+    color: black;
 }
-
-.btns:hover {
-    color: #FE7A7B;
-    cursor: pointer;
+.navLinks a:hover{
     font-weight: 600;
+    color: #FE7A7B;
 }
 
 .ctaContainer {

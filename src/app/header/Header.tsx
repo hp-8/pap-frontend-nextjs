@@ -3,28 +3,27 @@ import styles from './index.module.css'
 import React from "react";
 import logo from '../../../public/pap_logo.png' 
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
-
-  const handleClick = () => {
-    console.log ("Wow you clicked here")
-  }
 
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
+        <Link href='/'>
         <Image 
         src={logo} 
         width = {120}
         height={32}
         alt='paprika-logo'
         />
+        </Link>
       </div>
         <div className={styles.navLinks}>
-          <button className={styles.btns} onClick={handleClick}>About Us</button>
-          <button className={styles.btns} onClick={handleClick}>Contact Us</button>
-          <button className={styles.btns} onClick={handleClick}>FAQs</button>
-          <button className={styles.btns} onClick={handleClick}>Blogs</button>
+          <Link href='/about' className={styles.btns}>About Us</Link>
+          <Link href='/contactUs' className={styles.btns}>Contact Us</Link>
+          <Link href='/faqs' className={styles.btns}>FAQs</Link>
+          <Link href='/blogs' className={styles.btns}>Blogs</Link>
         </div>
       <div className={styles.ctaContainer}>
         <button className={styles.cta}>Download Now</button>

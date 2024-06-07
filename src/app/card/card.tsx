@@ -1,4 +1,3 @@
-// components/Card.tsx
 import React from 'react';
 import Link from 'next/link';
 import styles from './index.module.css';
@@ -29,8 +28,8 @@ const Card: React.FC<CardProps> = ({ restaurant }) => {
           <div className={styles.cuisines}>
             <span className={styles.cuisine}>{cuisine}</span>
           </div>
-          <Link href={`/${state}/${city}/${encodeURIComponent(name)}`}>
-            <a className={styles.viewButton}>View</a>
+          <Link href={`/${state}/${city}/${encodeURIComponent(name)}`} className={styles.viewButton}>
+            View
           </Link>
         </div>
       </div>
