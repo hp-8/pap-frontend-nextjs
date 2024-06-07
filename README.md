@@ -4,7 +4,7 @@
 Feel free to check around this application.
 
 ## Setup
-1. Clone the repository
+1. Clone the repository using git clone <URL>
 2. Install dependencies using npm install within the project directory.
 3. Run the development server using npm run dev.
 
