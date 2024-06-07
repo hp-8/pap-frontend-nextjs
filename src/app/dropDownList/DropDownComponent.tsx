@@ -49,19 +49,23 @@ const DropList: React.FC = () => {
 
   return (
     <div className={styles.dropdownContainer}>
+      <h1>Find the restaurants that best suits you !</h1>
+
+      <div className={styles.dropMenu}>
       <DropdownList 
         label="Select State:" 
         options={states} 
         onSelect={handleStateSelect} 
-      />
+        />
 
       <DropdownList 
         label="Select City:" 
         options={cities} 
         onSelect={handleCitySelect} 
-      />
+        />
 
-      <button onClick={handleFindButtonClick}>Find</button>
+      <button className={styles.btn} onClick={handleFindButtonClick}>Find</button>
+        </div>
     </div>
   );
 };

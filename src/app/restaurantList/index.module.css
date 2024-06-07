@@ -1,7 +1,12 @@
-.dropdownContainer {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* components/RestaurantList.module.css */
+.restaurantList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .restaurant-list {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
-  
+}

@@ -1,15 +1,118 @@
 /* index.module.css */
+
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.dropdownContainer {
+  height: 50vh;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.dropdownContainer h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem; /* Responsive font size */
+  color: white;
+  position: relative;
+  top: 3px;
+}
+
+.dropMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .dropMenu {
+    flex-direction: row;
   }
-  
-  .dropdownContainer {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Space between elements in mobile view */
+  width: 80%;
+  max-width: 300px; /* Maximum width for larger screens */
+}
+
+@media (min-width: 768px) {
+  .selectContainer {
+    margin-bottom: 0;
+    margin-right: 20px; /* Space between dropdowns and button in row layout */
   }
-  
+}
+
+.selectContainer label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.selectContainer select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s ease;
+  width: 100%; /* Full width for responsiveness */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.selectContainer select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.selectContainer option {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button.btn {
+  width: 80%;
+  max-width: 100px; /* Maximum width for larger screens */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box; /* Ensure padding is included in 
+  width */
+  position: relative;
+  bottom: -13px;
+}
+
+button.btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}

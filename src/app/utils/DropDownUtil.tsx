@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './index.module.css'
 
 interface DropdownListProps {
   options: string[];
@@ -13,7 +14,7 @@ const DropdownList: React.FC<DropdownListProps> = ({ options, onSelect, label })
   };
 
   return (
-    <div>
+    <div className={styles.selectContainer}>
       <label>{label}</label>
       <select onChange={handleChange}>
         <option value="">Select</option>

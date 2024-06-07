@@ -4,6 +4,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import data from '../../public/restaurantData.json'
 import Head from 'next/head';
+import Header from '@/app/header/Header';
 
 interface RestaurantData {
   state: string;
@@ -25,6 +26,7 @@ const StatePage: React.FC = () => {
       <Head>  
         <title>Restaurants in {state}</title>
       </Head>
+      <Header/>
       <h1>Restaurants in {state}</h1>
       <ul>
         {restaurantsInState.map((restaurant: RestaurantData) => (

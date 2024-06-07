@@ -5,6 +5,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import data from '../../../public/restaurantData.json';
 import Head from 'next/head';
+import Header from '@/app/header/Header';
 
 
 interface RestaurantData {
@@ -28,8 +29,8 @@ const CityPage: React.FC = () => {
       <div>
         <Head>
         <title>Restaurants in {city}</title>
-
         </Head>
+      <Header/>
       <h1>Restaurants in {city}, {state}</h1>
       <ul>
         {restaurantsInCity.map((restaurant: RestaurantData) => (

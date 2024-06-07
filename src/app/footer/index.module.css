@@ -1,0 +1,43 @@
+/* styles/footer.module.css */
+.footer {
+  background-color: white;
+  padding: 20px;
+  color: #6b7280; /* Grayish color */
+  border-top: 1px solid #e5e7eb; /* Light gray border */
+  
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600; /* Slightly bolder */
+  color: #ec4899; /* Pink color */
+}
+
+.footerNav {
+  display: flex; /* Arrange links horizontally */
+}
+
+.footerNav a {
+  margin-left: 24px;
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none;
+  transition: color 0.3s, font-weight 0.3s; /* Smooth transition */
+}
+
+.footerNav a:hover {
+  color: #FC7C78;
+}
+
+.footerDescription {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
